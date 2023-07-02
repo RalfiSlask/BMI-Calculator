@@ -1,7 +1,7 @@
 {
   "name": "bmi-calculator",
   "version": "0.1.0",
-  "homepage": "https://RalfiSlask.github.io/BMI-calculator",
+  "homepage": "https://RalfiSlask.github.io/BMI-Calculator",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
