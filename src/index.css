@@ -1,0 +1,303 @@
+@font-face {
+  font-family: 'Inter';
+  src: url("./assets/fonts/static/Inter-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  margin: 0 auto;
+  padding: 0;
+  color: #5E6E85;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #253347;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.info {
+  text-align: center;
+}
+
+.logo--main {
+  width: 40px;
+  height: 40px;
+}
+
+.BMI--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  position: absolute;
+  padding: 24px;
+}
+
+.blue--background {
+  background: linear-gradient(290.1deg, #D6E6FE 0%, rgba(214, 252, 254, 0) 100%);
+  border-radius: 0px 0px 35px 35px;
+  width: 100%;
+  height: 645px;
+}
+
+.details--container {
+  width: 328px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: 16px;
+  position: absolute;
+  top: 500px;
+}
+
+.details--header {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -1.2px;
+  color: #253347;
+}
+
+.units--panel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unit--wrapper {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.units--panel p {
+  color: var(--gunmetal, #253347);
+  font-weight: 600;
+}
+
+.units--panel button {
+  background: #FFFFFF;
+  border: 1px solid #D8E2E7;
+  border-radius: 50%;
+  width: 31px;
+  height: 31px;
+}
+
+.units--panel button:hover {
+  border: 1px solid #345FF6;
+  cursor: pointer;
+}
+
+.active {
+  width: 15px;
+  height: 15px;
+  background: #345FF6;
+  border-radius: 50%;
+}
+
+.metric--container input {
+  background: #FFFFFF;
+  border: 1px solid #D8E2E7;
+  border-radius: 12px;
+  width: 100%;
+  height: 69px;
+  margin-top: 8px;
+  padding: 20px 24px 20px 24px;
+  outline: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #253347;
+}
+
+.imperial--container input {
+  height: 69px;
+  width: 132px;
+  border: 1px solid #D8E2E7;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 24px 20px 24px;
+  outline: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #253347;
+}
+
+.imperial--form {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 8px;
+  position: relative;
+}
+
+.metric--form {
+  position: relative;
+}
+
+.metric--form .unit {
+  top: 25%;
+  left: 80%;
+}
+
+.unit {
+  text-align: right;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #345FF6;
+  width: 25px;
+  position: absolute;
+}
+
+.imperial--form .unit--big {
+  left: 30%;
+  top: -5%;
+}
+
+.imperial--form .unit--smaller {
+  left: 80%;
+  top: -5%;
+}
+
+.your--container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  max-height: 257px;
+  background: linear-gradient(90deg, #345FF7 0%, #587DFF 100%);
+  border-radius: 16px;
+  margin-top: 24px;
+  padding: 32px;
+  color: #FFFFFF;
+}
+
+.your--header, .BMI--value {
+  margin: 0;
+}
+
+.ideal--weight {
+  max-width: 267px;
+  margin: 0;
+}
+
+.your--bmi {
+  max-height: 102px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.guy--eating {
+  width: 100%;
+  margin-top: 500px;
+}
+
+/* BMI Meaning Container */
+
+.meaning--container {
+  width: 342px;
+  margin-top: 48px;
+}
+
+/* BMI Limitations Container */
+
+.limitations--container {
+  width: 342px;
+  margin-top: 72px;
+}
+
+.meaning--container h2, .limitations--container h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 110%;
+  letter-spacing: -0.05em;
+  color: #253347;
+}
+
+.limitation--component {
+  padding: 24px;
+  width: 327px;
+  background: #FFFFFF;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: 16px;
+  }
+
+.limitation--components {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 30px 0px 90px 0px;
+}
+
+.header--panel {
+  display: flex;
+  align-items: center;
+}
+
+.limitation--component h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.05em;
+  color: #253347;
+  margin-left: 16px;
+}
+
+.improvments--container {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 127px;
+}
+
+.improvments--container h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.05em;
+  color: #253347;
+}

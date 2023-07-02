@@ -1,0 +1,329 @@
+/*  Tablet */
+
+@media screen and (min-width: 772px) {
+
+    main {
+        width: 768px;
+    }
+
+    .details--container {
+        width: 686px;
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+        border-radius: 16px;
+        position: absolute;
+        top: 380px;
+      }
+
+      .units--panel {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+    
+      }
+
+      .metric--container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .metric--form {
+        width: 299px;
+      }
+
+      .imperial--form input {
+        width: 299px;
+      }
+
+      .imperial--form .unit--big {
+        left: 37%;
+      }
+
+      .imperial--form .unit--smaller {
+        left: 90%;
+      }
+
+      .your--header {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 150%;
+      }
+
+      .your--container {
+        width: 622px;
+        height: 149px;
+        border-radius: 16px 999px 999px 16px;
+        background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 50px;
+      }
+
+      .your--bmi {
+        margin-right: 45px;
+
+      }
+
+      .BMI--value {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 110%;
+        letter-spacing: -2.4px;
+      }
+
+      .ideal--weight {
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      .guy--eating {
+        width: 360px;
+        height: 411px;
+        position: absolute;
+        top: 900px;
+        left: -5%;
+        margin: 0;
+      }
+
+      .meaning--container {
+        position: absolute;
+        top: 920px;
+        margin: 0;
+        right: 5%;
+      }
+
+      .improvments--container {
+        width: 686px;
+        margin-top: 750px;
+      }
+
+      .improvment--container {
+        display: flex;
+        align-items: center;
+      }
+
+      .improvment--wrapper {
+        margin-left: 40px;
+      }
+
+      .limitations--container {
+        width: 686px;
+        margin-top: 156px;
+        text-align: center;
+      }
+
+      .limitation--components {
+        width: 686px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .header--panel {
+        margin-bottom: 16px;
+      }
+
+      .header--panel h2 {
+        margin: 0px 0px 0px 16px;
+      }
+
+      .limitation--component {
+        padding: 32px;
+        width: 335px;
+        max-height: 256px;
+        flex-basis: calc(50% - 15px);
+        margin-bottom: 10px;
+    }
+
+    .limitation--component:nth-child(5) {
+        flex-basis: 50%;
+        justify-self: center;
+        margin-left: 25%;
+       
+    }
+
+    .limitation--component p {
+        margin: 0;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1160px;
+    }
+
+    .blue--background {
+        position: absolute;
+        width: 978px;
+        height: 737px;
+        left: 0px;
+      
+    }
+
+    .BMI--container {
+        width: 564px;
+        align-items: flex-start;
+        left: 40px;
+    }
+
+    .BMI--container h1 {
+        margin-top: 127px;
+        text-align: left;
+    }
+
+    .BMI--container p {
+        text-align: left;
+    }
+
+    .details--container {
+        width: 564px;
+        padding: 32px;
+        top: 160px;
+        right: 0px;
+      }
+
+      .units--panel {
+        width: 375px;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0px 10px 0px;
+      }
+
+      .metric--container {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .details--header {
+        margin: 0;
+      }
+
+      .metric--form {
+        width: 238px;
+        height: 98px;
+      }
+
+      .imperial--container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .imperial--form input {
+        width: 238px;
+      }
+
+      .imperial--form .unit--big {
+        left: 37%;
+      }
+
+      .imperial--form .unit--smaller {
+        left: 90%;
+      }
+
+      .your--header {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 150%;
+      }
+
+      .your--container {
+        width: 500px;
+        height: 160px;
+        border-radius: 16px 999px 999px 16px;
+        background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 50px;
+        margin-top: 32px;
+      }
+
+      .your--bmi {
+        margin-right: 45px;
+
+      }
+
+      .BMI--value {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 110%;
+        letter-spacing: -2.4px;
+      }
+
+      .ideal--weight {
+        font-size: 14px;
+        line-height: 150%;
+      }
+
+      .guy--eating {
+        width: 564px;
+        height: 533px;
+        top: 850px;
+        left: 0%;
+      }
+
+      .meaning--container {
+        top: 980px;
+        right: 5%;
+      }
+
+      .improvments--container {
+        flex-direction: row;
+        width: 100%;
+        margin-top: 1550px;
+      }
+
+      .improvment--container {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .improvment--wrapper {
+        margin: 0px;
+      }
+
+      .limitations--container {
+        width: 686px;
+        margin-top: 156px;
+        text-align: center;
+      }
+
+      .limitation--components {
+        width: 686px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .header--panel {
+        margin-bottom: 16px;
+      }
+
+      .header--panel h2 {
+        margin: 0px 0px 0px 16px;
+      }
+
+      .limitation--component {
+        padding: 32px;
+        width: 335px;
+        max-height: 256px;
+        flex-basis: calc(50% - 15px);
+        margin-bottom: 10px;
+    }
+
+    .limitation--component:nth-child(5) {
+        flex-basis: 50%;
+        justify-self: center;
+        margin-left: 25%;
+       
+    }
+
+    .limitation--component p {
+        margin: 0;
+    }
+}
